@@ -2,7 +2,7 @@
   <div id="app" :style="{ overflowY: mobileNav ? 'hidden' : null }">
     <transition name="slidedown">
       <div class="notice" v-if="showNotice">
-        <p>If you like this site, show your appreciation by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺</p>
+          <p>Připoj se na náš <a href="https://discord.gg/adisbak">Discord</a></p>
         <eva-icon name="close" fill="white" width="16" height="16" @click="showNotice = false"></eva-icon>
       </div>
     </transition>
@@ -17,7 +17,7 @@
       <div>
         <router-link to="/ultra">DM Ultra</router-link>
         <router-link to="/aether">Dark Aether</router-link>
-        <router-link to="/settings" class="icon settings" content="Settings" v-tippy="{ placement: 'bottom' }">
+        <router-link to="/settings" class="icon settings" content="Nastavení" v-tippy="{ placement: 'bottom' }">
           <eva-icon name="settings-2-outline" fill="white"></eva-icon>
         </router-link>
       </div>
@@ -40,20 +40,20 @@
           <router-link to="/aether">Dark Aether</router-link>
         </div>
         <div class="footer">
-          <router-link to="/settings">Settings</router-link>
-          <router-link to="/about">About</router-link>
+          <router-link to="/settings">Nastavení</router-link>
+          <router-link to="/about">Informace</router-link>
           <a href="https://github.com/carlssonemil/coldwar">GitHub</a>
 
           <div class="info">
             <div>
-              <p>Looking for other camouflage trackers? 😎</p>
+                <p>Hledáš jiný trackery na kamufláže? 😎</p>
 
               <div class="buttons">
-                <a href="https://coldwar.vercel.app/">
-                  <img :src="require(`./assets/coldwar.png`)">
-                  <span>Cold War</span>
+                <a href="https://damascus.vercel.app/">
+                  <img :src="require(`./assets/damascus.png`)">
+                  <span>Modern Warfare (2019)</span>
                 </a>
-                <a href="https://vanguard.emca.app/">
+                <a href="https://vanguard.arcadex.cz">
                   <img :src="require(`./assets/vanguard.png`)">
                   <span>Vanguard</span>
                 </a>
@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">Support me by buying me a beer 🍺</a>
+          <a href="https://discord.gg/adisbak" class="button">Připoj se na náš Discord</a>
         </div>
       </nav>
     </transition>
