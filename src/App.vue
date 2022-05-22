@@ -71,10 +71,11 @@
     </main>
 
     <footer class="container">
-      <div>Made by <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
+      <div>Vytvořil <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
+      <div>Upravil <a href="https://twitch.tv/arcade0x">Arcade0X</a></div>
       
       <div>
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">Informace</router-link>
         <a href="https://github.com/carlssonemil/coldwar">GitHub</a>
       </div>
     </footer>
