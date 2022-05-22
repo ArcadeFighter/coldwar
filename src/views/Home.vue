@@ -1,12 +1,12 @@
 <template>
   <transition name="fade">
     <div class="container" v-if="show">
-      <h1>Tracker pro Cold War kamufl·ûe</h1>
-      <h2>Jednoduch˝, lehk˝ a intuitivnÌ tracker na kamufl·ûe z Call of Duty: Black Ops Cold War</h2>
+      <h1>Tracker pro Cold War kamufl√°≈æe</h1>
+      <h2>Jednoduch√Ω, lehk√Ω a intuitivn√≠ tracker na kamufl√°≈æe z Call of Duty: Black Ops Cold War</h2>
 
       <div class="buttons">
-        <button @click="$router.push('/ultra')" class="ultra"><span>DM Ultra kamufl·û</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
-        <button @click="$router.push('/aether')" class="aether"><span>Dark Aether kamufl·û</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/ultra')" class="ultra"><span>DM Ultra kamufl√°≈æ</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/aether')" class="aether"><span>Dark Aether kamufl√°≈æ</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
       </div>
     </div>
   </transition>

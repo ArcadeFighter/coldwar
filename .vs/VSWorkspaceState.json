@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\views"
   ],
-  "SelectedNode": "\\C:\\Users\\U40194030\\Source\\Repos\\coldwar",
+  "SelectedNode": "\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }
