@@ -128,7 +128,7 @@ export default new Vuex.Store({
 
       Vue.notify({
         type: 'success',
-        title: 'All progress successfully reset!'
+        title: 'Všechen progress byl úšpěšně resetovaný!'
       });
     },
 
@@ -138,7 +138,7 @@ export default new Vuex.Store({
 
       Vue.notify({
         type: 'success',
-        title: `${ type === 'ultra' ? 'DM Ultra' : 'Dark Aether' } progress successfully reset!`
+        title: `${type === 'ultra' ? 'DM Ultra' : 'Dark Aether' } kamufláže byl úšpěšně resetovaný!`
       });
     },
 
