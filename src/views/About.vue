@@ -16,10 +16,10 @@
       <p>Aplikace je postavena na <a href="https://vuejs.org/">Vue</a> a hostovaná na <a href="https://vercel.com/">Vercel</a>. Logo a favicon vytovřil <a href="https://thenounproject.com/search/?q=army+star&i=1602410">Wira Wianda</a> z <a href="https://thenounproject.com/">Noun Project</a>. Kód stránky je dostupný na <a href="https://github.com/carlssonemil/coldwar">GitHubu</a>.</p>
     
       <h4>Tracker pro Damascus, MW Reticly a Master Challenge</h4>
-      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Modern Warfare (2019)</i>? Najdeš ho <a href="https://damascus.vercel.app">TADY</a>.</p>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Modern Warfare (2019)</i>? Najdeš ho <a href="https://mw.arcadex.cz">TADY</a>.</p>
       
       <h4>Atomic & Dark Aether</h4>
-      <p>Looking for a camouflage tracker for <i>Call of Duty: Vanguard (2021)</i>? I made one conveniently named <a href="https://vanguard.emca.app">Vanguard</a>.</p>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Vanguard</i>? Najdeš ho <a href="https://vanguard.arcadex.cz">TADY</a>.</p>
 
       <h4>Připoj se na náš Discord</h4>
       <p>Chceš vědět víc informací o Call of Duty? Tak se připoj na náš <a href="https://discord.gg/adisbak">Discord</a>! Buď součástí velké Call of Duty komunity!</p>

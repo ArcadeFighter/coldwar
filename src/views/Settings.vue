@@ -46,34 +46,34 @@ export default {
       settings: [
         {
           name: 'Exportovat progress',
-          description: 'Exportuje tv˘j aktu·lnÌ progress do souboru.',
+          description: 'Exportuje tv≈Øj aktu√°ln√≠ progress do souboru.',
           action: 'exportProgress',
         },
         {
           name: 'Importovat progress',
-          description: 'Importuje tv˘j progress ze souboru.',
+          description: 'Importuje tv≈Øj progress ze souboru.',
           action: 'importProgress'
         },
         {
-          name: 'Resetovat progress DM Ultra kamufl·ûe',
-          description: 'Resetuje tv˘j aktu·lnÌ progress DM Ultra kamufl·ûe.',
-          warning: 'Tato akce je nevratn·.',
+          name: 'Resetovat progress DM Ultra kamufl√°≈æe',
+          description: 'Resetuje tv≈Øj aktu√°ln√≠ progress DM Ultra kamufl√°≈æe.',
+          warning: 'Tato akce je nevratn√°.',
           action: 'resetProgress',
           param: 'ultra',
           button: 'Resetovat progress'
         },
         {
-          name: 'Resetovat progress Dark Aether kamufl·ûe',
-          description: 'Resetuje tv˘j aktu·lnÌ progress Dark Aether kamufl·ûe.',
-          warning: 'Tato akce je nevratn·.',
+          name: 'Resetovat progress Dark Aether kamufl√°≈æe',
+          description: 'Resetuje tv≈Øj aktu√°ln√≠ progress Dark Aether kamufl√°≈æe.',
+          warning: 'Tato akce je nevratn√°.',
           action: 'resetProgress',
           param: 'aether',
           button: 'Resetovat progress'
         },
         {
-          name: 'Resetovat vöechen progress',
-          description: 'Resetovat vöechen tv˘j progress u obou kamufl·ûÌ (DM Ultra & Dark Aether).',
-          warning: 'Tato akce je nevratn·.',
+          name: 'Resetovat v≈°echen progress',
+          description: 'Resetovat v≈°echen tv≈Øj progress u obou kamufl√°≈æ√≠ (DM Ultra & Dark Aether).',
+          warning: 'Tato akce je nevratn√°.',
           action: 'resetAll',
           button: 'Resetovat progress'
         }
@@ -107,17 +107,17 @@ export default {
                   event.target.value = null;
                   this.$notify({
                     type: 'success',
-                    title: `Progress ˙öpÏönÏ importov·n!`,
+                    title: `Progress √∫≈°pƒõ≈°nƒõ importov√°n!`,
                   });
                 });
             }, 500);
           };
           reader.readAsText(file);
         } else {
-          this.handleImportError(`Tv˘j prohlÌûeË nepodporuje poûadovanou API pro zpracov·nÌ nahr·v·nÌ soubor˘.`, event);
+          this.handleImportError(`Tv≈Øj prohl√≠≈æeƒç nepodporuje po≈æadovanou API pro zpracov√°n√≠ nahr√°v√°n√≠ soubor≈Ø.`, event);
         }
       } else {
-        this.handleImportError(`Tento typ souboru je öpatn˝. Spr·vn˝ soubor musÌ mÌt koncovku ".json".`, event);
+        this.handleImportError(`Tento typ souboru je ≈°patn√Ω. Spr√°vn√Ω soubor mus√≠ m√≠t koncovku ".json".`, event);
       }
     },
 
