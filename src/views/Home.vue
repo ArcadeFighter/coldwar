@@ -1,12 +1,12 @@
 <template>
   <transition name="fade">
     <div class="container" v-if="show">
-      <h1>Cold War</h1>
-      <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Black Ops Cold War</h2>
+      <h1>Tracker pro Cold War kamufláže</h1>
+      <h2>Jednoduchý, lehký a intuitivní tracker na kamufláže z Call of Duty: Black Ops Cold War</h2>
 
       <div class="buttons">
-        <button @click="$router.push('/ultra')" class="ultra"><span>Track DM Ultra</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
-        <button @click="$router.push('/aether')" class="aether"><span>Track Dark Aether</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/ultra')" class="ultra"><span>DM Ultra kamufláž</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/aether')" class="aether"><span>Dark Aether kamufláž</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
       </div>
     </div>
   </transition>

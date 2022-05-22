@@ -45,37 +45,37 @@ export default {
       uploading: false,
       settings: [
         {
-          name: 'Export progress',
-          description: 'Export your current progress as a file.',
+          name: 'Exportovat progress',
+          description: 'Exportuje tvùj aktuální progress do souboru.',
           action: 'exportProgress',
         },
         {
-          name: 'Import progress',
-          description: 'Import progress from exported file.',
+          name: 'Importovat progress',
+          description: 'Importuje tvùj progress ze souboru.',
           action: 'importProgress'
         },
         {
-          name: 'Reset DM Ultra camouflage progress',
-          description: 'Reset your current DM Ultra camouflage progress.',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat progress DM Ultra kamufláže',
+          description: 'Resetuje tvùj aktuální progress DM Ultra kamufláže.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetProgress',
           param: 'ultra',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
-          name: 'Reset Dark Aether camouflage progress',
-          description: 'Reset your current Dark Aether camouflage progress.',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat progress Dark Aether kamufláže',
+          description: 'Resetuje tvùj aktuální progress Dark Aether kamufláže.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetProgress',
           param: 'aether',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
-          name: 'Reset all progress',
-          description: 'Reset all your current camouflage progress (DM Ultra & Dark Aether).',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat všechen progress',
+          description: 'Resetovat všechen tvùj progress u obou kamufláží (DM Ultra & Dark Aether).',
+          warning: 'Tato akce je nevratná.',
           action: 'resetAll',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         }
       ]
     }
@@ -107,17 +107,17 @@ export default {
                   event.target.value = null;
                   this.$notify({
                     type: 'success',
-                    title: `Successfully imported progress!`,
+                    title: `Progress úšpìšnì importován!`,
                   });
                 });
             }, 500);
           };
           reader.readAsText(file);
         } else {
-          this.handleImportError(`Your browser does not support the required APIs to handle uploads.`, event);
+          this.handleImportError(`Tvùj prohlížeè nepodporuje požadovanou API pro zpracování nahrávání souborù.`, event);
         }
       } else {
-        this.handleImportError(`The file type of the uploaded file is incorrect, it needs to be ".json".`, event);
+        this.handleImportError(`Tento typ souboru je špatný. Správný soubor musí mít koncovku ".json".`, event);
       }
     },
 

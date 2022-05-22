@@ -1,8 +1,8 @@
 <template>
   <transition name="fade">
     <div class="about container" v-show="show">
-      <h3>Simple, lightweight &amp; intuitive</h3>
-      <p>Keep track of your progress to the DM Ultra and/or Dark Aether camouflage with this easy-to-use tracker.</p>
+      <h3>Jednoduchý, lehký a intuitivní tracker na kamufláže z Call of Duty: Black Ops Cold War</h3>
+      <p>Sleduj svůj progress DM Ultra/Dark Aether kamufláže s tímto jednoduchým trackerem.</p>
 
       <div class="features">
         <div class="feature" v-for="feature in features" :key="feature.title">
@@ -12,17 +12,17 @@
         </div>
       </div>
 
-      <h4>Open source</h4>
-      <p>Built with <a href="https://vuejs.org/">Vue</a>, hosted on <a href="https://vercel.com/">Vercel</a> and analytics by <a href="https://plausible.io/">Plausible</a>. Icon used in logotype and favicon is created by <a href="https://thenounproject.com/search/?q=army+star&i=1602410">Wira Wianda</a> from <a href="https://thenounproject.com/">Noun Project</a>. The code to this site is available on <a href="https://github.com/carlssonemil/coldwar">GitHub</a>.</p>
+      <h4>Je to Open source</h4>
+      <p>Aplikace je postavena na <a href="https://vuejs.org/">Vue</a> a hostovaná na <a href="https://vercel.com/">Vercel</a>. Logo a favicon vytovřil <a href="https://thenounproject.com/search/?q=army+star&i=1602410">Wira Wianda</a> z <a href="https://thenounproject.com/">Noun Project</a>. Kód stránky je dostupný na <a href="https://github.com/carlssonemil/coldwar">GitHubu</a>.</p>
     
-      <h4>Damascus</h4>
-      <p>Looking for a completionist tracker for <i>Call of Duty: Modern Warfare (2019)</i>? I made one conveniently named <a href="https://damascus.vercel.app">Damascus</a>.</p>
+      <h4>Tracker pro Damascus, MW Reticly a Master Challenge</h4>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Modern Warfare (2019)</i>? Najdeš ho <a href="https://damascus.vercel.app">TADY</a>.</p>
       
       <h4>Atomic & Dark Aether</h4>
       <p>Looking for a camouflage tracker for <i>Call of Duty: Vanguard (2021)</i>? I made one conveniently named <a href="https://vanguard.emca.app">Vanguard</a>.</p>
 
-      <h4>Support me</h4>
-      <p>You can support me by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺, it'd be greatly appreciated!</p>
+      <h4>Připoj se na náš Discord</h4>
+      <p>Chceš vědět víc informací o Call of Duty? Tak se připoj na náš <a href="https://discord.gg/adisbak">Discord</a>! Buď součástí velké Call of Duty komunity!</p>
     </div>
   </transition>
 </template>
@@ -36,18 +36,18 @@ export default {
       show: false,
       features: [
         {
-          title: 'Autosaving',
-          description: 'Your progress is automatically saved and stored.',
+          title: 'Automatické ukládání',
+          description: 'Tvůj progress se automaticky úkladá.',
           icon: 'save-outline'
         },
         {
-          title: 'Responsive',
-          description: 'Use it on your smartphone while gaming.',
+          title: 'Responzivní',
+          description: 'Můžeš použít i svůj telefon na tento tracker.',
           icon: 'smartphone-outline'
         },
         {
           title: 'Export/Import',
-          description: 'Export your progress to another device or browser.',
+          description: 'Exportuj svůj progress do jiného zařízení nebo prohlížeče.',
           icon: 'external-link-outline'
         }
       ]
