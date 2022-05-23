@@ -81,41 +81,41 @@ export default [
   {
     name: 'Flora',
     requirements: {
-      'Assault Rifles': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Assault Rifles': { default: 'Dát 75 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' },
       'Launchery': { default: 'Zničit 50 vzdušných Scorestreaků' },
-      'Light Machine Guns': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Light Machine Guns': { default: 'Dát 75 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' },
       'Melee': { default: 'Dát 50 Killů ve skluzu (slide)' },
-      'Pistole': { default: 'Dát 25 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
-      'Brokovnice': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Pistole': { default: 'Dát 25 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' },
+      'Brokovnice': { default: 'Dát 75 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' },
       'Sniper Rifles': { default: 'Dát 50 Killů se zadrženým dechem' },
       'Special': { 
         default: 'Zničit 50 vzdušných Scorestreaků',
-        'R1 Shadowhunter': 'Dát 50 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P',
+        'R1 Shadowhunter': 'Dát 50 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)',
         'Ballistic Knife': 'Dát 50 Killů ve skluzu (slide)',
-        'Nail Gun': 'Dát 50 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P'
+        'Nail Gun': 'Dát 50 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)'
       },
-      'Submachine Guns': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
-      'Tactical Rifles': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' }
+      'Submachine Guns': { default: 'Dát 75 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' },
+      'Tactical Rifles': { default: 'Dát 75 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' }
     }
   },
   {
     name: 'Science',
     requirements: {
-      'Assault Rifles': { default: '50 Anti-Cover' },
-      'Launchery': { default: '10 3-streaks' },
-      'Light Machine Guns': { default: '50 Anti-Cover' },
-      'Melee': { default: 'Dát 50 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
-      'Pistole': { default: '25 Anti-Cover' },
-      'Brokovnice': { default: '75 Point-Blank' },
-      'Sniper Rifles': { default: '50 One Shot Killů' },
+      'Assault Rifles': { default: 'Dát 50 Killů, když se nepřítel kryje před tebou' },
+      'Launchery': { default: 'Zničit 3 Scorestreaky nebo vozidla v jedné hře 10krát' },
+      'Light Machine Guns': { default: 'Dát 50 Killů, když se nepřítel kryje před tebou' },
+      'Melee': { default: 'Dát 50 killů, když je nepřítel odhalený tvým Scorestreakem, vybavením nebo Field Upgradem (Field Mic, UAV, H.A.R.P atd.)' },
+      'Pistole': { default: 'Dát 25 Killů, když se nepřítel kryje před tebou' },
+      'Brokovnice': { default: 'Dát 75 Point Blank Killů (kill z velmi krátké vzdálenosti)' },
+      'Sniper Rifles': { default: 'Dát 50 One Shot Killů (zabít nepřítele na jeden zásah)' },
       'Special': { 
-        default: '10 3-streaks',
-        'R1 Shadowhunter': '5 One Shot Killů in a single game 10 times',
-        'Ballistic Knife': '50 Killů against enemies who are disoriented by a smoke grenade, flash or stun grenades',
-        'Nail Gun': '50 Point-Blank',
+        default: 'Zničit 3 Scorestreaky nebo vozidla v jedné hře 10krát',
+        'R1 Shadowhunter': '5 One Shot Killů v jedné hře 10krát',
+        'Ballistic Knife': 'Dát 50 Killů, když je nepřítel dezorientovaný smoke, flash nebo stun granátem',
+        'Nail Gun': 'Dát 50 Point Blank Killů (kill z velmi krátké vzdálenosti)',
       },
-      'Submachine Guns': { default: '75 Point-Blank' },
-      'Tactical Rifles': { default: '50 Anti-Cover' }
+      'Submachine Guns': { default: 'Dát 75 Point Blank Killů (kill z velmi krátké vzdálenosti)' },
+      'Tactical Rifles': { default: 'Dát 50 Killů, když se nepřítel kryje před tebou' }
     }
   },
   {
