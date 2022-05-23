@@ -1,19 +1,19 @@
 const camoStrings = {
-  'Spray': 'Spray: Prosper',
-  'Stripes': 'Stripes: Bengal',
-  'Classic': 'Classic: Ransom',
-  'Geometric': 'Geometric: Bloodline',
-  'Flora': 'Flora: Cherry Blossom',
-  'Science': 'Science: Policia',
-  'Psychadelic': 'Psychadelic: Bliss',
+  'Spray': 'Spray',
+  'Stripes': 'Stripes',
+  'Classic': 'Classic',
+  'Geometric': 'Geometric',
+  'Flora': 'Flora',
+  'Science': 'Science',
+  'Psychadelic': 'Psychadelic',
 
-  'Grunge': 'Grunge: Rotten',
-  'Liquid': 'Liquid: Banished',
-  'Brushstroke': 'Brushstroke: Chemical',
-  'Vintage': 'Vintage: Maniac',
-  'Fauna': 'Fauna: Rising Tiger',
-  'Topography': 'Topography: Sunder',
-  'Infection': 'Infection: Conviction',
+  'Grunge': 'Grunge',
+  'Liquid': 'Liquid',
+  'Brushstroke': 'Brushstroke',
+  'Vintage': 'Vintage',
+  'Fauna': 'Fauna',
+  'Topography': 'Topography',
+  'Infection': 'Infection',
 }
 
 // Default progress for DM Ultra

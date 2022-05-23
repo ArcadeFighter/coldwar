@@ -3,76 +3,76 @@ export default [
   {
     name: 'Spray',
     requirements: {
-      'Assault Rifles': { default: '300 Kills' },
-      'Launchery': { default: '50 Kills' },
-      'Light Machine Guns': { default: '300 Kills' },
-      'Melee': { default: '75 Kills' },
-      'Pistole': { default: '150 Kills' },
-      'Brokovnice': { default: '200 Kills' },
-      'Sniper Rifles': { default: '200 Kills' },
+      'Assault Rifles': { default: 'Dát 300 Killù' },
+      'Launchery': { default: 'Dát 50 Killù' },
+      'Light Machine Guns': { default: 'Dát 300 Killù' },
+      'Melee': { default: 'Dát 75 Killù' },
+      'Pistole': { default: 'Dát 150 Killù' },
+      'Brokovnice': { default: 'Dát 200 Killù' },
+      'Sniper Rifles': { default: 'Dát 200 Killù' },
       'Special': { 
-        default: '50 Kills',
-        'R1 Shadowhunter': '30 Kills',
-        'Ballistic Knife': '100 Kills',
-        'Nail Gun': '300 Kills'
+        default: 'Dát 50 Killù',
+        'R1 Shadowhunter': 'Dát 30 Killù',
+        'Ballistic Knife': 'Dát 100 Killù',
+        'Nail Gun': 'Dát 300 Killù'
       },
-      'Submachine Guns': { default: '300 Kills' },
-      'Tactical Rifles': { default: '300 Kills' }
+      'Submachine Guns': { default: 'Dát 300 Killù' },
+      'Tactical Rifles': { default: 'Dát 300 Killù' }
     }
   },
   {
     name: 'Stripes',
     requirements: {
-      'Assault Rifles': { default: '100 Headshots' },
-      'Launchery': { default: '50 Streaks/Equipment' },
-      'Light Machine Guns': { default: '100 Headshots' },
-      'Melee': { default: '25 Backstabber medals' },
-      'Pistole': { default: '50 Headshots' },
-      'Brokovnice': { default: '50 Headshots' },
-      'Sniper Rifles': { default: '50 Headshots' },
+      'Assault Rifles': { default: 'Dát 100 Headshot Killù' },
+      'Launchery': { default: 'Znièit 50 Scorestreakù nebo vybavení' },
+      'Light Machine Guns': { default: 'Dát 100 Headshot Killù' },
+      'Melee': { default: 'Získat 25 Backstabber medailí (zabíjet nepøátele zezadu)' },
+      'Pistole': { default: 'Dát 50 Headshot Killù' },
+      'Brokovnice': { default: 'Dát 50 Headshot Killù' },
+      'Sniper Rifles': { default: 'Dát 50 Headshot Killù' },
       'Special': { 
-        default: 'Destroy 50 killstreaks or equipment',
-        'R1 Shadowhunter': '50 Longshots',
-        'Ballistic Knife': 'Get both a melee kill and projectile kill in the same life 25 times',
-        'Nail Gun': '50 Headshots'
+        default: 'Znièit 50 Scorestreakù nebo vybavení',
+        'R1 Shadowhunter': 'Dát 50 Longshot Killù (na velkou vzdálenost)',
+        'Ballistic Knife': 'Dát s Ballistic Knife melee kill a kill vystøeleným nožem za jeden život 25krát',
+        'Nail Gun': 'Dát 50 Headshot Killù'
        },
-      'Submachine Guns': { default: '75 Headshots' },
-      'Tactical Rifles': { default: '100 Headshots' }
+      'Submachine Guns': { default: 'Dát 75 Headshot Killù' },
+      'Tactical Rifles': { default: 'Dát 100 Headshot Killù' }
     }
   },
   {
     name: 'Classic',
     requirements: {
-      'Assault Rifles': { default: '5 kills without dying 20 times' },
-      'Launchery': { default: '2 kills without dying 20 times' },
-      'Light Machine Guns': { default: '5 kills without dying 20 times' },
-      'Melee': { default: '25 Finishing Moves' },
-      'Pistole': { default: '5 kills without dying 20 times' },
-      'Brokovnice': { default: '5 kills without dying 20 times' },
-      'Sniper Rifles': { default: '5 kills without dying 20 times' },
+      'Assault Rifles': { default: 'Dát 5 Killù bez smrti 20krát' },
+      'Launchery': { default: 'Dát 2 Killy bez smrti 20krát' },
+      'Light Machine Guns': { default: 'Dát 5 Killù bez smrti 20krát' },
+      'Melee': { default: 'Dát 25 Finishing Moves (držet melee tlaèítko za nepøítelem)' },
+      'Pistole': { default: 'Dát 5 Killù bez smrti 20krát' },
+      'Brokovnice': { default: 'Dát 5 Killù bez smrti 20krát' },
+      'Sniper Rifles': { default: 'Dát 5 Killù bez smrti 20krát' },
       'Special': { 
-        default: '2 kills without dying 20 times',
-        'Ballistic Knife': '3 kills without dying 20 times',
-        'Nail Gun': '5 kills without dying 20 times'
+        default: 'Dát 2 Killy bez smrti 20krát',
+        'Ballistic Knife': 'Dát 3 Killy bez smrti 20krát',
+        'Nail Gun': 'Dát 5 Killù bez smrti 20krát'
        },
-      'Submachine Guns': { default: '5 kills without dying 20 times' },
-      'Tactical Rifles': { default: '5 kills without dying 20 times' }
+      'Submachine Guns': { default: 'Dát 5 Killù bez smrti 20krát' },
+      'Tactical Rifles': { default: 'Dát 5 Killù bez smrti 20krát' }
     }
   },
   {
     name: 'Geometric',
     requirements: {
       'Assault Rifles': { default: '50 Longshots' },
-      'Launchery': { default: 'Destroy 50 ground-based killstreaks' },
+      'Launchery': { default: 'Destroy 50 ground-based Killùtreaks' },
       'Light Machine Guns': { default: '50 Longshots' },
-      'Melee': { default: '50 kills while injured' },
+      'Melee': { default: '50 Killù while injured' },
       'Pistole': { default: '25 Longshots' },
       'Brokovnice': { default: '50 Longshots' },
       'Sniper Rifles': { default: '50 Longshots' },
       'Special': { 
         default: 'Destroy 50 equipment, scorestreaks or vehicles',
         'Ballistic Knife': '25 Backstabber medals',
-        'Nail Gun': '50 kills while sliding'
+        'Nail Gun': '50 Killù while sliding'
        },
       'Submachine Guns': { default: '50 Longshots' },
       'Tactical Rifles': { default: '50 Longshots' }
@@ -82,16 +82,16 @@ export default [
     name: 'Flora',
     requirements: {
       'Assault Rifles': { default: '75 Stunned/Detected' },
-      'Launchery': { default: 'Destroy 50 air-based killstreaks' },
+      'Launchery': { default: 'Destroy 50 air-based Killùtreaks' },
       'Light Machine Guns': { default: '75 Stunned/Detected' },
-      'Melee': { default: '50 kills while sliding' },
+      'Melee': { default: '50 Killù while sliding' },
       'Pistole': { default: '25 Stunned/Detected' },
       'Brokovnice': { default: '75 Stunned/Detected' },
       'Sniper Rifles': { default: '50 Holding Breath' },
       'Special': { 
-        default: 'Destroy 50 air-based killstreaks',
+        default: 'Destroy 50 air-based Killùtreaks',
         'R1 Shadowhunter': '50 Stunned/Detected',
-        'Ballistic Knife': '50 kills while sliding',
+        'Ballistic Knife': '50 Killù while sliding',
         'Nail Gun': '50 Stunned/Detected'
       },
       'Submachine Guns': { default: '75 Stunned/Detected' },
@@ -107,11 +107,11 @@ export default [
       'Melee': { default: '50 Stunned/Detected' },
       'Pistole': { default: '25 Anti-Cover' },
       'Brokovnice': { default: '75 Point-Blank' },
-      'Sniper Rifles': { default: '50 One Shot Kills' },
+      'Sniper Rifles': { default: '50 One Shot Killù' },
       'Special': { 
         default: '10 3-streaks',
-        'R1 Shadowhunter': '5 One Shot kills in a single game 10 times',
-        'Ballistic Knife': '50 kills against enemies who are disoriented by a smoke grenade, flash or stun grenades',
+        'R1 Shadowhunter': '5 One Shot Killù in a single game 10 times',
+        'Ballistic Knife': '50 Killù against enemies who are disoriented by a smoke grenade, flash or stun grenades',
         'Nail Gun': '50 Point-Blank',
       },
       'Submachine Guns': { default: '75 Point-Blank' },
@@ -121,16 +121,16 @@ export default [
   {
     name: 'Psychadelic',
     requirements: {
-      'Assault Rifles': { default: '25 Double Kills' },
-      'Launchery': { default: '25 Double Kills' },
-      'Light Machine Guns': { default: '25 Double Kills' },
-      'Melee': { default: '25 Double Kills' },
-      'Pistole': { default: '25 Double Kills' },
-      'Brokovnice': { default: '25 Double Kills' },
-      'Sniper Rifles': { default: '25 Double Kills' },
-      'Special': { default: '25 Double Kills' },
-      'Submachine Guns': { default: '25 Double Kills' },
-      'Tactical Rifles': { default: '25 Double Kills' }
+      'Assault Rifles': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Launchery': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Light Machine Guns': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Melee': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Pistole': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Brokovnice': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Sniper Rifles': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Special': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Submachine Guns': { default: 'Dát 25 Double Killù (2 killy za sebou)' },
+      'Tactical Rifles': { default: 'Dát 25 Double Killù (2 killy za sebou)' }
     }
   },
 
@@ -138,75 +138,75 @@ export default [
   {
     name: 'Grunge',
     requirements: {
-      'Assault Rifles': { default: '2500 Kills' },
-      'Launchery': { default: '1500 Kills' },
-      'Light Machine Guns': { default: '2500 Kills' },
-      'Melee': { default: '750 Kills' },
-      'Pistole': { default: '2500 Kills' },
-      'Brokovnice': { default: '2500 Kills' },
-      'Sniper Rifles': { default: '2500 Kills' },
+      'Assault Rifles': { default: 'Zabít 2500 Zombies' },
+      'Launchery': { default: '1500 Killù' },
+      'Light Machine Guns': { default: '2500 Killù' },
+      'Melee': { default: '750 Killù' },
+      'Pistole': { default: '2500 Killù' },
+      'Brokovnice': { default: '2500 Killù' },
+      'Sniper Rifles': { default: '2500 Killù' },
       'Special': { 
-        default: '1500 Kills',
-        'Nail Gun': '2500 Kills'
+        default: '1500 Killù',
+        'Nail Gun': '2500 Killù'
       },
-      'Submachine Guns': { default: '2500 Kills' },
-      'Tactical Rifles': { default: '2500 Kills' }
+      'Submachine Guns': { default: '2500 Killù' },
+      'Tactical Rifles': { default: '2500 Killù' }
     }
   },
   {
     name: 'Liquid',
     requirements: {
-      'Assault Rifles': { default: '2500 critical hit kills' },
+      'Assault Rifles': { default: '2500 critical hit Killù' },
       'Launchery': { default: 'Kill 2 or more enemies rapidly 50 times' },
-      'Light Machine Guns': { default: '2500 critical hit kills' },
-      'Melee': { default: '50 kills against enemies who are disoriented by a stun grenade, monkey bomb or decoy' },
-      'Pistole': { default: '2500 critical hit kills' },
-      'Brokovnice': { default: '2500 critical hit kills' },
-      'Sniper Rifles': { default: '2500 critical hit kills' },
+      'Light Machine Guns': { default: '2500 critical hit Killù' },
+      'Melee': { default: '50 Killù against enemies who are disoriented by a stun grenade, monkey bomb or decoy' },
+      'Pistole': { default: '2500 critical hit Killù' },
+      'Brokovnice': { default: '2500 critical hit Killù' },
+      'Sniper Rifles': { default: '2500 critical hit Killù' },
       'Special': { 
         default: 'Kill 2 or more enemies rapidly 50 times',
-        'R1 Shadowhunter': 'Get 3 or more critical hit kills rapidly 50 times',
-        'Ballistic Knife': '50 kills against enemies who are disoriented by a stun grenade, monkey bomb or decoy',
-        'Nail Gun': '2500 critical hit kills'
+        'R1 Shadowhunter': 'Get 3 or more critical hit Killù rapidly 50 times',
+        'Ballistic Knife': '50 Killù against enemies who are disoriented by a stun grenade, monkey bomb or decoy',
+        'Nail Gun': '2500 critical hit Killù'
       },
-      'Submachine Guns': { default: '2500 critical hit kills' },
-      'Tactical Rifles': { default: '2500 critical hit kills' }
+      'Submachine Guns': { default: '2500 critical hit Killù' },
+      'Tactical Rifles': { default: '2500 critical hit Killù' }
     }
   },
   {
     name: 'Brushstroke',
     requirements: {
-      'Assault Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
+      'Assault Rifles': { default: '2500 Killù while the weapon is pack-a-punched' },
       'Launchery': { default: 'Kill 5 or more enemies with a single shot 50 times' },
-      'Light Machine Guns': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Melee': { default: '750 kills while the weapon is pack-a-punched' },
-      'Pistole': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Brokovnice': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Sniper Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
+      'Light Machine Guns': { default: '2500 Killù while the weapon is pack-a-punched' },
+      'Melee': { default: '750 Killù while the weapon is pack-a-punched' },
+      'Pistole': { default: '2500 Killù while the weapon is pack-a-punched' },
+      'Brokovnice': { default: '2500 Killù while the weapon is pack-a-punched' },
+      'Sniper Rifles': { default: '2500 Killù while the weapon is pack-a-punched' },
       'Special': { 
         default: 'Kill 5 or more enemies with a single shot 50 times',
         'R1 Shadowhunter': 'Kill 3 or more enemies with a single shot 50 times',
-        'Ballistic Knife': 'Get 1500 kills while the weapon is pack-a-punched',
-        'Nail Gun': 'Get 2500 kills while the weapon is pack-a-punched'
+        'Ballistic Knife': 'Get 1500 Killù while the weapon is pack-a-punched',
+        'Nail Gun': 'Get 2500 Killù while the weapon is pack-a-punched'
       },
-      'Submachine Guns': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Tactical Rifles': { default: '2500 kills while the weapon is pack-a-punched' }
+      'Submachine Guns': { default: '2500 Killù while the weapon is pack-a-punched' },
+      'Tactical Rifles': { default: '2500 Killù while the weapon is pack-a-punched' }
     }
   },
   {
     name: 'Vintage',
     requirements: {
       'Assault Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
-      'Launchery': { default: '2500 kills while the weapon is pack-a-punched' },
+      'Launchery': { default: '2500 Killù while the weapon is pack-a-punched' },
       'Light Machine Guns': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
-      'Melee': { default: 'Get 15 kills with the knife against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies' },
+      'Melee': { default: 'Get 15 Killù with the knife against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies' },
       'Pistole': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Brokovnice': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Sniper Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Special': { 
-        default: '2500 kills while the weapon is pack-a-punched',
-        'R1 Shadowhunter': '1500 kills while the weapon is pack-a-punched',
-        'Ballistic Knife': 'Get 15 kills with the Ballistic Knife against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies',
+        default: '2500 Killù while the weapon is pack-a-punched',
+        'R1 Shadowhunter': '1500 Killù while the weapon is pack-a-punched',
+        'Ballistic Knife': 'Get 15 Killù with the Ballistic Knife against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies',
         'Nail Gun': 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)'
       },
       'Submachine Guns': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
@@ -216,53 +216,53 @@ export default [
   {
     name: 'Fauna',
     requirements: {
-      'Assault Rifles': { default: 'Get 10 kills rapidly 10 times' },
+      'Assault Rifles': { default: 'Get 10 Killù rapidly 10 times' },
       'Launchery': { default: 'Get 10 Special or Elite eliminations (Bosses count as 3 eliminations)' },
-      'Light Machine Guns': { default: 'Get 10 kills rapidly 10 times' },
+      'Light Machine Guns': { default: 'Get 10 Killù rapidly 10 times' },
       'Melee': { default: 'Get 10 Special or Elite eliminations (Bosses count as 3 eliminations)' },
-      'Pistole': { default: 'Get 10 kills rapidly 10 times' },
-      'Brokovnice': { default: 'Get 10 kills rapidly 10 times' },
-      'Sniper Rifles': { default: 'Get 10 kills rapidly 10 times' },
+      'Pistole': { default: 'Get 10 Killù rapidly 10 times' },
+      'Brokovnice': { default: 'Get 10 Killù rapidly 10 times' },
+      'Sniper Rifles': { default: 'Get 10 Killù rapidly 10 times' },
       'Special': { 
         default: 'Get 10 Special or Elite eliminations (Bosses count as 3 eliminations)',
-        'Nail Gun': 'Get 10 kills rapidly 10 times'
+        'Nail Gun': 'Get 10 Killù rapidly 10 times'
       },
-      'Submachine Guns': { default: 'Get 10 kills rapidly 10 times' },
-      'Tactical Rifles': { default: 'Get 10 kills rapidly 10 times' }
+      'Submachine Guns': { default: 'Get 10 Killù rapidly 10 times' },
+      'Tactical Rifles': { default: 'Get 10 Killù rapidly 10 times' }
     }
   },
   {
     name: 'Topography',
     requirements: {
-      'Assault Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
-      'Launchery': { default: 'Get 10 kills rapidly 10 times' },
-      'Light Machine Guns': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
-      'Melee': { default: '10 kills rapidly 10 times' },
-      'Pistole': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
-      'Brokovnice': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
-      'Sniper Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
+      'Assault Rifles': { default: 'Get 3 or more critical hit Killù rapidly 25 times' },
+      'Launchery': { default: 'Get 10 Killù rapidly 10 times' },
+      'Light Machine Guns': { default: 'Get 3 or more critical hit Killù rapidly 25 times' },
+      'Melee': { default: '10 Killù rapidly 10 times' },
+      'Pistole': { default: 'Get 3 or more critical hit Killù rapidly 25 times' },
+      'Brokovnice': { default: 'Get 3 or more critical hit Killù rapidly 25 times' },
+      'Sniper Rifles': { default: 'Get 3 or more critical hit Killù rapidly 25 times' },
       'Special': { 
-        default: 'Get 10 kills rapidly 10 times',
-        'Ballistic Knife': 'Get 2 or more kills rapidly 10 times',
-        'Nail Gun': 'Get 3 or more critical hit kills rapidly 25 times'
+        default: 'Get 10 Killù rapidly 10 times',
+        'Ballistic Knife': 'Get 2 or more Killù rapidly 10 times',
+        'Nail Gun': 'Get 3 or more critical hit Killù rapidly 25 times'
       },
-      'Submachine Guns': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
-      'Tactical Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' }
+      'Submachine Guns': { default: 'Get 3 or more critical hit Killù rapidly 25 times' },
+      'Tactical Rifles': { default: 'Get 3 or more critical hit Killù rapidly 25 times' }
     }
   },
   {
     name: 'Infection',
     requirements: {
-      'Assault Rifles': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Launchery': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Light Machine Guns': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Melee': { default: 'Get 20 or more consecutive kills with the knife without getting hit 10 times in Zombies' },
-      'Pistole': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Brokovnice': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Sniper Rifles': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Special': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Submachine Guns': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Tactical Rifles': { default: 'Get 20 or more consecutive kills without getting hit 10 times' }
+      'Assault Rifles': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Launchery': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Light Machine Guns': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Melee': { default: 'Get 20 or more consecutive Killù with the knife without getting hit 10 times in Zombies' },
+      'Pistole': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Brokovnice': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Sniper Rifles': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Special': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Submachine Guns': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' },
+      'Tactical Rifles': { default: 'Get 20 or more consecutive Killù without getting hit 10 times' }
     }
   }
 ]
