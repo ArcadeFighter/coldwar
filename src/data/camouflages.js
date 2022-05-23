@@ -62,40 +62,40 @@ export default [
   {
     name: 'Geometric',
     requirements: {
-      'Assault Rifles': { default: '50 Longshots' },
-      'Launchery': { default: 'Destroy 50 ground-based Killůtreaks' },
-      'Light Machine Guns': { default: '50 Longshots' },
-      'Melee': { default: '50 Killů while injured' },
-      'Pistole': { default: '25 Longshots' },
-      'Brokovnice': { default: '50 Longshots' },
-      'Sniper Rifles': { default: '50 Longshots' },
+      'Assault Rifles': { default: 'Dát 50 Longshot Killů (na velkou vzdálenost)' },
+      'Launchery': { default: 'Zničit 50 pozemních Scorestreaků' },
+      'Light Machine Guns': { default: 'Dát 50 Longshot Killů (na velkou vzdálenost)' },
+      'Melee': { default: 'Dát 50 Killů když jsi raněný' },
+      'Pistole': { default: 'Dát 25 Longshot Killů (na velkou vzdálenost)' },
+      'Brokovnice': { default: 'Dát 50 Longshot Killů (na velkou vzdálenost)' },
+      'Sniper Rifles': { default: 'Dát 50 Longshot Killů (na velkou vzdálenost)' },
       'Special': { 
-        default: 'Destroy 50 equipment, scorestreaks or vehicles',
-        'Ballistic Knife': '25 Backstabber medals',
-        'Nail Gun': '50 Killů while sliding'
+        default: 'Zničit 50 vybavení, scorestreaků nebo vozidel',
+        'Ballistic Knife': 'Získat 25 Backstabber medailí (zabíjet nepřátele zezadu)',
+        'Nail Gun': 'Dát 50 Killů ve skluzu (slide)'
        },
-      'Submachine Guns': { default: '50 Longshots' },
-      'Tactical Rifles': { default: '50 Longshots' }
+      'Submachine Guns': { default: 'Dát 50 Longshot Killů (na velkou vzdálenost)' },
+      'Tactical Rifles': { default: 'Dát 50 Longshot Killů (na velkou vzdálenost)' }
     }
   },
   {
     name: 'Flora',
     requirements: {
-      'Assault Rifles': { default: '75 Stunned/Detected' },
-      'Launchery': { default: 'Destroy 50 air-based Killůtreaks' },
-      'Light Machine Guns': { default: '75 Stunned/Detected' },
-      'Melee': { default: '50 Killů while sliding' },
-      'Pistole': { default: '25 Stunned/Detected' },
-      'Brokovnice': { default: '75 Stunned/Detected' },
-      'Sniper Rifles': { default: '50 Holding Breath' },
+      'Assault Rifles': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Launchery': { default: 'Zničit 50 vzdušných Scorestreaků' },
+      'Light Machine Guns': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Melee': { default: 'Dát 50 Killů ve skluzu (slide)' },
+      'Pistole': { default: 'Dát 25 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Brokovnice': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Sniper Rifles': { default: 'Dát 50 Killů se zadrženým dechem' },
       'Special': { 
-        default: 'Destroy 50 air-based Killůtreaks',
-        'R1 Shadowhunter': '50 Stunned/Detected',
-        'Ballistic Knife': '50 Killů while sliding',
-        'Nail Gun': '50 Stunned/Detected'
+        default: 'Zničit 50 vzdušných Scorestreaků',
+        'R1 Shadowhunter': 'Dát 50 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P',
+        'Ballistic Knife': 'Dát 50 Killů ve skluzu (slide)',
+        'Nail Gun': 'Dát 50 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P'
       },
-      'Submachine Guns': { default: '75 Stunned/Detected' },
-      'Tactical Rifles': { default: '75 Stunned/Detected' }
+      'Submachine Guns': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
+      'Tactical Rifles': { default: 'Dát 75 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' }
     }
   },
   {
@@ -104,7 +104,7 @@ export default [
       'Assault Rifles': { default: '50 Anti-Cover' },
       'Launchery': { default: '10 3-streaks' },
       'Light Machine Guns': { default: '50 Anti-Cover' },
-      'Melee': { default: '50 Stunned/Detected' },
+      'Melee': { default: 'Dát 50 killů, když je nepřítel stunnutý nebo detekovaný tvým Field Micem, UAV nebo H.A.R.P' },
       'Pistole': { default: '25 Anti-Cover' },
       'Brokovnice': { default: '75 Point-Blank' },
       'Sniper Rifles': { default: '50 One Shot Killů' },
