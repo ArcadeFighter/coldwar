@@ -3,15 +3,15 @@
     <transition name="fade">
       <div :class="['completed', type]"
            v-show="completed">
-        <h2 v-if="type === 'ultra'">DM Ultra unlocked! 🥳</h2>
-        <h2 v-if="type === 'aether'">Dark Aether unlocked! 🥳</h2>
+        <h2 v-if="type === 'ultra'">Máš odemknutý DM Ultra! 🥳</h2>
+        <h2 v-if="type === 'aether'">Máš odemknutý Dark Aether! 🥳</h2>
       </div>
     </transition>
 
     <transition name="slideup">
       <div class="bars" v-show="show">
         <div :class="['progress', type]"
-             :content="`Progress towards the ${ type === 'ultra' ? 'DM Ultra' : 'Dark Aether' } camouflage`"
+             :content="`Progress pro ${ type === 'ultra' ? 'DM Ultra' : 'Dark Aether' } kamufláž`"
              v-tippy="{ maxWidth: 500 }">
           <div class="bar" :style="{ width: progress + '%' }"></div>
           <label>{{ type === 'ultra' ? 'DM Ultra' : 'Dark Aether' }} progress: <span>{{ progress }}%</span></label>
@@ -51,7 +51,7 @@
 
     methods: {
       calculateProgress(weapons) {
-        const categories = ['Assault Rifles', 'Launchers', 'Light Machine Guns', 'Melee', 'Pistols', 'Shotguns', 'Sniper Rifles', 'Special', 'Submachine Guns', 'Tactical Rifles'];
+        const categories = ['Assault Rifles', 'Launchery', 'Light Machine Guns', 'Melee', 'Pistole', 'Brokovnice', 'Sniper Rifles', 'Special', 'Submachine Guns', 'Tactical Rifles'];
         const progress = {};
 
         categories.forEach(category => {

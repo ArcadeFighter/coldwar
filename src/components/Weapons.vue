@@ -7,7 +7,7 @@
           <div class="weapon" v-for="weapon in category" :key="weapon.name">
             <div :class="['name', mode, { completed: completed(weapon, mode) }, { required: weapon.required }]"
                  @dblclick="toggleWeaponComplete(mode, weapon, completed(weapon, mode))"
-                 v-tippy="{ content: `Double-click to ${ completed(weapon, mode) ? 'reset' : 'complete' } weapon` }">
+                 v-tippy="{ content: `Klikni dvakrát pro ${ completed(weapon, mode) ? 'reset' : 'complete' } zbraně` }">
               {{ weapon.name }}
             </div>
 
@@ -31,7 +31,7 @@
     </transition-group>
 
     <div v-if="Object.keys(weapons).length === 0" class="finished-placeholder">
-      <p>You have completed all camouflage challenges 👏</p>
+      <p>Splnil jsi všechny challenge na kamufláže 👏</p>
     </div>
   </div>
 </template>
